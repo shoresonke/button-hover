@@ -1,0 +1,90 @@
+
+ #buttons {
+	list-style-type: none;
+	font-family: georgia;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+#buttons li {
+	display: block;
+	margin: 60px;	
+}
+
+#buttons li a {
+	text-decoration: none;
+	color: #241D46;
+	background-color: #EDFF4F;
+	padding: 20px 30px 20px 20px;
+	border: solid 5px #241D46;
+	border-radius: 0px 55px 55px 0px;
+
+	-webkit-transition: padding-right 0.6s ease-in-out;
+	-moz-transition: padding-right 0.6s ease-in-out;
+	-o-transition: padding-right 0.6s ease-in-out;
+	transition: padding-right 0.6s eease-in-out;
+}
+
+#buttons li a:hover {
+	background-color: #399D4D;
+	color: white;
+	font-style: italic;
+	padding-right: 150px;
+}
+
+#buttons li a:focus {
+	background-color: #399D4D;
+	color: white;
+	font-style: italic;
+	padding-right: 150px;
+}
+
+
+
+ #left {
+	list-style-type: none;
+	font-family: georgia;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+#left li {
+	display: block;
+	margin: 60px;	
+}
+
+#left li a {
+	text-decoration: none;
+	color: #241D46;
+	background-color: #EDFF4F;
+	padding: 20px 30px 20px 20px;
+	border: solid 5px #241D46;
+	border-radius: 55px 0px 0px 55px;
+
+	-webkit-transition: padding-left 0.6s ease-in-out;
+	-moz-transition: padding-left 0.6s ease-in-out;
+	-o-transition: padding-left 0.6s ease-in-out;
+	transition: padding-left 0.6s eease-in-out;
+}
+
+#left li a:hover {
+	background-color: #399D4D;
+	color: white;
+	font-style: italic;
+	padding-left: 150px;
+	opacity: .4;
+	
+}
+
+#left li a:focus {
+	background-color: #399D4D;
+	color: white;
+	font-style: italic;
+	padding-left: 150px;
+	opacity: .4;
+	
+}
+
+
+
+
